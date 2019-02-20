@@ -1,5 +1,5 @@
 {
-	"name": "@legasi/cli",
+	"name": "legasi-cli",
 	"version": "0.1.0",
 	"license": "MIT",
 	"description": "LEGASI CLI",
@@ -16,7 +16,7 @@
 		"cli"
 	],
 	"rollup": {
-		"moduleName": "@legasi/cli"
+		"moduleName": "legasi-cli"
 	},
 	"files": [
 		"index.js",
@@ -28,8 +28,5 @@
 	"module": "dist/index.esm.js",
 	"dev:module": "dist/index.dev.esm.js",
 	"typings": "dist/index.d.ts",
-	"repository": "https://github.com/imprss/legasi",
-	"dependencies": {
-		"axios": "^0.18.0"
-	}
+	"repository": "https://github.com/imprss/legasi"
 }

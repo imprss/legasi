@@ -12,8 +12,8 @@ const addRuntime = function (key, config) {
 			translate: function (key) { return key; },
 			event: {
 				eventHandlers: [],
-				on: function (e, script) {
-/* 					var handler = { event: e, script: script };
+/*				on: function (e, script) {
+					var handler = { event: e, script: script };
 					window.legasi.event.eventHandlers.push(handler);
 					return {
 						cancel: function () {
@@ -23,15 +23,15 @@ const addRuntime = function (key, config) {
 							if (handler && fn) handler.script = fn;
 						}
 					};
- */				},
+				},
 				trigger: function (e, payload) {
-/* 					//var ownHandlers = _.filter(window.legasi.event.eventHandlers, { "event": e });
+					//var ownHandlers = _.filter(window.legasi.event.eventHandlers, { "event": e });
 					var event = { name: e, timestamp: Date() };
 					window.legasi.event.eventHandlers.forEach(function (handler) {
 						if (handler.event === e && typeof handler.script == "function") handler.script(payload, event);
 					});
- */				}
-			},
+				}
+ */			},
 			settings: {
 				str: "test",
 				modules: {
@@ -109,8 +109,8 @@ const addRuntime = function (key, config) {
 				console.log.apply(window, arguments);
 			},
 			directives: {
-				register: function (name, fn) {
-/* 					window.legasi.directives.registeredDirectives[name.replace(/-([a-z])/g, function ($1, $2) { return $2.toUpperCase(); })] = (module, dom, props, payload) => {
+/*				register: function (name, fn) {
+					window.legasi.directives.registeredDirectives[name.replace(/-([a-z])/g, function ($1, $2) { return $2.toUpperCase(); })] = (module, dom, props, payload) => {
 						var directiveName = name.replace(/-([a-z])/g, function ($1, $2) { return $2.toUpperCase(); });
 
 						if (!dom.directiveValues) dom.directiveValues = {};
@@ -122,8 +122,8 @@ const addRuntime = function (key, config) {
 							payload: payload
 						};
 					};
- */				},
-				registeredDirectives: {}
+				},
+*/				registeredDirectives: {}
 			},
 			uuid: function () {
 				function s4() { return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1); }
@@ -171,8 +171,8 @@ const legasi = function (val) {
 		translate: function (key) { return key; },
 		event: {
 			eventHandlers: [],
-			on: function (e, script) {
-/* 				var handler = { event: e, script: script };
+/*			on: function (e, script) {
+				var handler = { event: e, script: script };
 				window.legasi.event.eventHandlers.push(handler);
 				return {
 					cancel: function () {
@@ -182,15 +182,15 @@ const legasi = function (val) {
 						if (handler && fn) handler.script = fn;
 					}
 				};
- */			},
+			},
 			trigger: function (e, payload) {
-/* 				//var ownHandlers = _.filter(window.legasi.event.eventHandlers, { "event": e });
+				//var ownHandlers = _.filter(window.legasi.event.eventHandlers, { "event": e });
 				var event = { name: e, timestamp: Date() };
 				window.legasi.event.eventHandlers.forEach(function (handler) {
 					if (handler.event === e && typeof handler.script == "function") handler.script(payload, event);
 				});
- */			}
-		},
+			}
+ */		},
 		settings: {
 			str: "test",
 			modules: {
@@ -253,8 +253,8 @@ const legasi = function (val) {
 				deleteRecord: () => { }
 			},
 			npm: {
-				list: async (library = "", search, options = { filter: '', maxRows: 0, fields: [], showErrors: false }) => await { resultSet: [], metaData: { recordCount: 0, pageNumber: 0 } },
-				install: ({ test, twee }) => test,
+				list: () => { },
+				install: () => { },
 				update: () => { },
 				uninstall: () => { }
 			},
@@ -265,8 +265,8 @@ const legasi = function (val) {
 			console.log.apply(window, arguments);
 		},
 		directives: {
-			register: function (name, fn) {
-/* 				window.legasi.directives.registeredDirectives[name.replace(/-([a-z])/g, function ($1, $2) { return $2.toUpperCase(); })] = (module, dom, props, payload) => {
+/*			register: function (name, fn) {
+				window.legasi.directives.registeredDirectives[name.replace(/-([a-z])/g, function ($1, $2) { return $2.toUpperCase(); })] = (module, dom, props, payload) => {
 					var directiveName = name.replace(/-([a-z])/g, function ($1, $2) { return $2.toUpperCase(); });
 
 					if (!dom.directiveValues) dom.directiveValues = {};
@@ -278,8 +278,8 @@ const legasi = function (val) {
 						payload: payload
 					};
 				};
- */			},
-			registeredDirectives: {}
+			},
+ */			registeredDirectives: {}
 		},
 		uuid: function () {
 			function s4() { return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1); }
@@ -296,7 +296,7 @@ const legasi = function (val) {
         * @returns {string} the same styles that were passed in
         */
 		isMobile: function (str, plop) {
-
+			console.log(str, plop);
 		}
 	};
 

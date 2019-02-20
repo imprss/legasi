@@ -13,15 +13,18 @@
 		"no-debugger": false,
 		"no-empty": false,
 		"no-unused-expression": true,
+		"no-shadowed-variable": false,
 		"object-literal-sort-keys": false,
 		"one-variable-per-declaration": [true, "ignore-for-loop"],
 		"only-arrow-functions": false,
 		"ordered-imports": false,
+		"no-var-keyword": false,
 		"prefer-const": true,
 		"prefer-for-of": false,
 		"quotemark": false,
 		"trailing-comma": [true],
-		"variable-name": false
+		"variable-name": false,
+		"object-literal-shorthand": false
 	},
 	"rules": {
 		"arrow-parens": false,
@@ -34,19 +37,23 @@
 		"member-access": true,
 		"member-ordering": false,
 		"no-bitwise": false,
+		"no-console": false,
 		"no-conditional-assignment": false,
 		"no-debugger": false,
-		"no-empty": true,
+		"no-empty": false,
 		"no-namespace": false,
 		"no-unused-expression": true,
-		"object-literal-sort-keys": true,
+		"no-shadowed-variable": false,
+		"object-literal-sort-keys": false,
 		"one-variable-per-declaration": [true, "ignore-for-loop"],
 		"only-arrow-functions": false,
 		"ordered-imports": false,
+		"no-var-keyword": false,
 		"prefer-const": true,
 		"prefer-for-of": false,
 		"quotemark": false,
 		"trailing-comma": [true],
-		"variable-name": false
+		"variable-name": false,
+		"object-literal-shorthand": false
 	}
 }

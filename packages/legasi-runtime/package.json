@@ -1,5 +1,5 @@
 {
-	"name": "@legasi/runtime",
+	"name": "legasi-runtime",
 	"version": "0.1.0",
 	"license": "MIT",
 	"description": "LEGASI Runtime",
@@ -16,7 +16,7 @@
 		"runtime"
 	],
 	"rollup": {
-		"moduleName": "@legasi/runtime"
+		"moduleName": "legasi-runtime"
 	},
 	"files": [
 		"index.js",
