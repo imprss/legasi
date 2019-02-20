@@ -1,0 +1,9 @@
+{
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false,
+	"editor.fontLigatures": true,
+	"explorer.openEditors.visible": 0,
+	"npm-scripts.showStartNotification": false,
+	"debug.node.autoAttach": "on",
+	"workbench.tree.indent": 20
+}

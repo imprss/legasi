@@ -1,0 +1,35 @@
+{
+	"name": "@legasi/runtime",
+	"version": "0.1.0",
+	"license": "MIT",
+	"description": "LEGASI Runtime",
+	"author": {
+		"name": "IMPRSS",
+		"email": "reinout.mechant@imprss.be"
+	},
+	"bugs": {
+		"url": "https://github.com/imprss/legasi/issues"
+	},
+	"homepage": "https://github.com/imprss/legasi#readme",
+	"keywords": [
+		"legasi",
+		"runtime"
+	],
+	"rollup": {
+		"moduleName": "@legasi/runtime"
+	},
+	"files": [
+		"index.js",
+		"dist/",
+		"README.md",
+		"package.json"
+	],
+	"main": "index.js",
+	"module": "dist/index.esm.js",
+	"dev:module": "dist/index.dev.esm.js",
+	"typings": "dist/index.d.ts",
+	"repository": "https://github.com/imprss/legasi",
+	"dependencies": {
+		"axios": "^0.18.0"
+	}
+}
