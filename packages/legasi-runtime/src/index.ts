@@ -164,7 +164,7 @@ const legasi = function (val) {
 		throw new Error("No configuration matched.");
 	}
 
-	var kieken = {
+	var gijkieken = {
 		context: {},
 		debugMode: false,
 		setTimeout: function (fn, duration) { return window.setTimeout(fn, duration || 0); },
@@ -300,9 +300,9 @@ const legasi = function (val) {
 		}
 	};
 
-	kieken = configurations[key].instance;
+	gijkieken = configurations[key].instance;
 
-	return kieken;
+	return gijkieken;
 
 };
 
