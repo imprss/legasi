@@ -19,3 +19,6 @@ jobs:
     - npm run build:es
     - npm run build:es:dev
     - npm run test:browser:sauce
+global:
+  env:
+    secure: wBehXMy33LC2t3Yw9EpBsw2vkgc/ANt1PytWv0oXBdrxflurw0g9khnPHC81laPJdljD3QDeNVEaSOVTld2b+Y+lACKWQRmEZEw8GcPsy3VuTdM5nZVKvrfdEkWwO73+IxrmtIal4w9JNpLEk1wYQDTtEeosZXhZeYkxZNnHYfJliiE7+iHvuCMIV4nRjhQZzwMHeznzk5OD0Px/l9t4Fd3xFhXoefsDHB7RxRJdKbWcrjggUHOrWx+BOGZ5zdK+mEsakNDlfd1QzAtxochZcH6CydxLZqShseSX8YIXBJwwUXPkn3BjOUQRIIZfFzUsEOnQyLD62gq2xt/oZWaR6guHcxwOqyIA1kjhXyfu5ZRAqjC/GO1YdMwNHcFXTkist0tQGCYKkYxR7Tekns8Wvbn3bNJYW47PNSjugS2l2NJkc25N8XkPEoDGjxRPpa+LqK4tTco47BkLsBNduaI/M6d/mBNXqHFJhZ2o+iz6TYRZLiLmOcaKiPoezlcTm6MZIpbvNiwPrW73WHmq7QwvKOWkDGsyg0qmAN/YDqJ+xOY4wD/4XtmWzSftBKnDb/c2CZLWVrE3Qv3KkZMJzdud/H8KP+wWPuGHqDU+8pVyUsawL9RtWrCxMllg/+OhXWxJaN8iSMSK2pwed006Q/q+E5DwaJLysyxXtbMRZARhrMw=
