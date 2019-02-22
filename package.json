@@ -71,8 +71,7 @@
 		"test:coverage": "cross-env NODE_ENV=test jest --runInBand --coverage --no-watchman",
 		"test:browser": "npm run --prefix fixtures/browser pretest && npm run --prefix fixtures/browser local",
 		"test:browser:debug": "npm run --prefix fixtures/browser debug",
-		"test:browser:sauce": "npm run --prefix fixtures/browser test",
-		"test:package": "node fixtures/packaging/build-all.js"
+		"test:browser:sauce": "npm run --prefix fixtures/browser test"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.3.3",
