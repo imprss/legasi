@@ -18,8 +18,8 @@ jobs:
     script:
     - npm run build:es
     - npm run build:es:dev
-    - npm run test:browser:sauce
-addons:
-  sauce_connect:
-    username: "renoken"
-    access_key: "a6d4348d-c59e-46fe-8bbf-6f219f090e1b"
+    #- npm run test:browser:sauce
+#addons:
+#  sauce_connect:
+#    username: "renoken"
+#    access_key: "a6d4348d-c59e-46fe-8bbf-6f219f090e1b"
