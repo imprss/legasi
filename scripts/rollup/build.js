@@ -21,7 +21,7 @@ mkdir(join(cwd, 'dist'), err => {
 			env: 'development',
 			ext: '.js',
 			format: 'umd',
-			name: pkgJSON.name,
+			name: (pkgJSON && pkgJSON.rollup && pkgJSON.rollup.moduleName ? pkgJSON.rollup.moduleName : pkgJSON.name),
 			replace: true,
 			uglify: true,
 			version: pkgJSON.version
@@ -37,7 +37,7 @@ mkdir(join(cwd, 'dist'), err => {
 	rollup
 		.then(bundle)
 		.then(() => {
-			console.log(`${pkgJSON.name} in ${options.format} is DONE`);
+			console.log(`${(pkgJSON && pkgJSON.rollup && pkgJSON.rollup.moduleName ? pkgJSON.rollup.moduleName : pkgJSON.name)} in ${options.format} is DONE`);
 		})
 		.catch(error => {
 			console.error(error); // Print whole error object
