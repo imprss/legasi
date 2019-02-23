@@ -12,5 +12,4 @@ jobs:
     - npm run lint
     - npm run build-slow
     - npm run test:coverage
-    - npm run coveralls
-    - codecov
+    - npm run codecov
