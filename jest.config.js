@@ -4,6 +4,7 @@ module.exports = {
 		"!**/*.ts.js",
 	],
 	coverageDirectory: "coverage",
+	collectCoverage: true,
 	coverageReporters: ["html", "lcov", "text"],
 	globals: {
 		usingJSDOM: true,
