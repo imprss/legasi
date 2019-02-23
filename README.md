@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/imprss/legasi" target="_blank"><img width="150" alt="LEGASI" title="LEGASI" src=""></p>
+<p align="center"><a href="https://github.com/imprss/legasi" target="_blank"><img width="150" alt="LEGASI" title="LEGASI" src="https://github.com/imprss/legasi/blob/master/images/LEGASI_LEAF.png?raw=true"></p>
 
 [![Build Status](https://travis-ci.org/imprss/legasi.svg?branch=master)](https://travis-ci.org/imprss/legasi)
 [![codecov](https://codecov.io/gh/imprss/legasi/branch/master/graph/badge.svg)](https://codecov.io/gh/imprss/legasi)
