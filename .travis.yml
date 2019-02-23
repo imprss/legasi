@@ -18,8 +18,6 @@ jobs:
     script:
     - npm run build:es
     - npm run build:es:dev
-    #- npm run test:browser:sauce
-#addons:
-#  sauce_connect:
-#    username: "renoken"
-#    access_key: "a6d4348d-c59e-46fe-8bbf-6f219f090e1b"
+addons:
+  jwt:
+    secure: X8Vua0MshJx0Y0CK7sqXLgArqPUQ7yDuiguWMnS1JI0MZXBhPcq6CM8Qk2kPxtmdnJnKAI4UZw1uXuYg0yzrc/HHbjpzcI8PI4YxaxwKJgiWNpEljB1XLTvMufmuTTqIpwNSuIctrERLZm7RzP71EXre9qUau4gUJtzMMhXUwCk0MOTtMcM+Sh3kAxgRlq8d9177k4FHa44nS4cpoXwJ0AmqNFnMqGAjoi9h0nQagEoAM45IQPUmoFDGNo857XKtyaJI+KmgIXYb95c1Lau4dUq06+oCdN900o2n6G/2fvsE+92DmM3gBtRqY6I1OpxcQugARXcmYwpHCpu/VI7dxnh63Ofzs4rschoW3JUMQiwut+kjEbOAtGjOvaz8+zaSlT58R617J3CZXHkPZoqhS/bb06mEs2CMOfuVL6I0E4o4bo3TW5Qz4WeXWNJZiVVaxQix5NN1d/EzUOs4Z7Szz702hltUAhyTvf3AEIvp8CjzOMoLldF9fxnrsSgqqCJZ5f0JdoxNhzBu01ZduCz8sOPK5hqfwAONXWH3az9f/sm/xIPJGnBa7YE6u5mKEsYPNi/SQBP244WgY2CqYQ76+4szK7vALEtyBruzRVvmHVRaXytSjaIJR1M2PqlqBzWp1uSoLcSv7BvXiE31J7+eRe/UsSWdDqNan4W+v9ANWzM=
