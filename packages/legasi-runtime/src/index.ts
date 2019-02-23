@@ -35,13 +35,6 @@ const addRuntime = function (key, config) {
 			settings: {
 				str: "test",
 				modules: {
-					getRecords: () => {
-						return axios({
-							method: "get",
-							url: "https://dev.legasi.net/api/modules",
-							headers: { "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiJlYjYxYzNlYTU5MTE2ZWRhMjcyYjI3ZmEzNjdhMTYxZGM3N2RhNzI4MTQ3MDc4M2ZmMDlkYzE1NWE1YWMwYWIwYTNlNWZjOWJkODhmYzJlODFlNmM3NzVjNDM4NzFkNmYiLCJ2YWwiOiJmYTk1OTNjODdmZmY2YmM1NDgxMjE1MDNiNzgzYWZmODc4NTcxN2MyYTQwNGJhZjllZTE3OTZhMTZiZTI0ODJlOTBlYTk3YzhhOWM3MzI4ZjlkNTNlNGM5OGUwZjYxZTEiLCJpYXQiOjE1MjkzOTAwODcwMTIsImV4cCI6Ijc3NTY1N2ZhNDZmNWE5N2M1ZjBkOWI1MGNiOWUxMTE1In0.mAz5RLADDWh3bzr7HmwmQ_EE76DsQjlUD7PG_naUuOc" }
-						});
-					},
 					getRecordById: () => { },
 					getRecordsPaged: () => { },
 					createRecord: () => { },
@@ -194,13 +187,6 @@ const legasi = function (val) {
 		settings: {
 			str: "test",
 			modules: {
-				getRecords: () => {
-					return axios({
-						method: "get",
-						url: "https://dev.legasi.net/api/modules",
-						headers: { "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiJlYjYxYzNlYTU5MTE2ZWRhMjcyYjI3ZmEzNjdhMTYxZGM3N2RhNzI4MTQ3MDc4M2ZmMDlkYzE1NWE1YWMwYWIwYTNlNWZjOWJkODhmYzJlODFlNmM3NzVjNDM4NzFkNmYiLCJ2YWwiOiJmYTk1OTNjODdmZmY2YmM1NDgxMjE1MDNiNzgzYWZmODc4NTcxN2MyYTQwNGJhZjllZTE3OTZhMTZiZTI0ODJlOTBlYTk3YzhhOWM3MzI4ZjlkNTNlNGM5OGUwZjYxZTEiLCJpYXQiOjE1MjkzOTAwODcwMTIsImV4cCI6Ijc3NTY1N2ZhNDZmNWE5N2M1ZjBkOWI1MGNiOWUxMTE1In0.mAz5RLADDWh3bzr7HmwmQ_EE76DsQjlUD7PG_naUuOc" }
-					});
-				},
 				getRecordById: () => { },
 				getRecordsPaged: () => { },
 				createRecord: () => { },
