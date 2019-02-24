@@ -1,7 +1,7 @@
 import legasi from 'legasi-cli';
 
-describe('state', () => {
-	it('legasi should start', () => {
+describe('legasi-cli', () => {
+	it('should start', () => {
 		var isOk = false;
 		if (legasi) isOk = true;
 		var result = legasi.test();
