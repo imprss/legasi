@@ -1,6 +1,10 @@
 export default {
-	test: () => {
+	test: (input: boolean) => {
 		console.log('done');
-		return "yes";
+		if (input) {
+			return "yes";
+		} else {
+			return "false";
+		}
 	}
 };
