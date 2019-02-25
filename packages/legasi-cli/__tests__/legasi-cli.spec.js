@@ -5,7 +5,9 @@ describe('legasi-cli', () => {
 		var isOk = false;
 		if (legasi) isOk = true;
 		var result = legasi.test(true);
+		var result2 = legasi.test(false);
 		expect(isOk).toBe(true);
 		expect(result).toBe("yes");
+		expect(result2).toBe("false");
 	})
 });
