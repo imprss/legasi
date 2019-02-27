@@ -9,6 +9,7 @@ const addRuntime = function (key, config) {
 	configurations[key] = {
 		config: config, instance: {
 			context: {},
+			blabla: true,
 			debugMode: false,
 			setTimeout: function (fn, duration) { return window.setTimeout(fn, duration || 0); },
 			translate: function (key) { return key; },
