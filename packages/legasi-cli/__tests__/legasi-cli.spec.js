@@ -8,6 +8,6 @@ describe('legasi-cli', () => {
 		var result2 = legasi.test(false);
 		expect(isOk).toBe(true);
 		expect(result).toBe("yes");
-		expect(result2).toBe("false");
+		expect(result2).toBe("also false");
 	})
 });

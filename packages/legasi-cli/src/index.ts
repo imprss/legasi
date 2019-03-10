@@ -4,7 +4,7 @@ export default {
 		if (input) {
 			return "yes";
 		} else {
-			return "false";
+			return "also false";
 		}
 	}
 };
